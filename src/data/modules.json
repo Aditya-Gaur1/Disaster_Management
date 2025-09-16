@@ -1,0 +1,179 @@
+{
+  "modules": [
+    {
+      "id": "floods",
+      "title": "Flood Preparedness",
+      "titleHi": "बाढ़ की तैयारी",
+      "description": "Learn how to prepare for and respond to flood emergencies according to NDMA guidelines.",
+      "descriptionHi": "एनडीएमए दिशानिर्देशों के अनुसार बाढ़ की आपातकाल के लिए तैयारी और प्रतिक्रिया करना सीखें।",
+      "icon": "Waves",
+      "difficulty": "Beginner",
+      "duration": "30 minutes",
+      "points": 100,
+      "content": {
+        "sections": [
+          {
+            "title": "Understanding Floods",
+            "content": "Floods are one of the most common natural disasters in India. They occur when water overflows from rivers, lakes, or coastal areas due to heavy rainfall, dam failure, or storm surge."
+          },
+          {
+            "title": "Before a Flood",
+            "content": "Stay informed about weather conditions. Keep emergency supplies ready. Know your evacuation routes. Secure important documents in waterproof containers."
+          },
+          {
+            "title": "During a Flood",
+            "content": "Move to higher ground immediately. Avoid walking or driving through floodwater. Stay away from electrical equipment if you are wet."
+          },
+          {
+            "title": "After a Flood",
+            "content": "Wait for authorities to declare the area safe. Avoid floodwater as it may be contaminated. Check for structural damage before entering buildings."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "What should you do first when a flood warning is issued?",
+          "options": [
+            "Move to higher ground",
+            "Start sandbagging",
+            "Call friends and family",
+            "Take photos"
+          ],
+          "correct": 0,
+          "points": 25
+        },
+        {
+          "question": "How deep should floodwater be to avoid walking through it?",
+          "options": [
+            "Any depth",
+            "6 inches or more",
+            "1 foot or more",
+            "2 feet or more"
+          ],
+          "correct": 1,
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "earthquakes",
+      "title": "Earthquake Safety",
+      "titleHi": "भूकंप सुरक्षा",
+      "description": "Master earthquake preparedness and response techniques to protect yourself and others.",
+      "descriptionHi": "अपनी और दूसरों की सुरक्षा के लिए भूकंप की तैयारी और प्रतिक्रिया तकनीकों में महारत हासिल करें।",
+      "icon": "Mountain",
+      "difficulty": "Intermediate",
+      "duration": "45 minutes",
+      "points": 150,
+      "content": {
+        "sections": [
+          {
+            "title": "Understanding Earthquakes",
+            "content": "Earthquakes occur due to the sudden release of energy in Earth's crust. India experiences frequent seismic activity, making earthquake preparedness crucial."
+          },
+          {
+            "title": "Drop, Cover, and Hold On",
+            "content": "During an earthquake: DROP to hands and knees, take COVER under a sturdy desk or table, HOLD ON to your shelter and protect your head and neck."
+          },
+          {
+            "title": "Earthquake Safety Kit",
+            "content": "Prepare an emergency kit with water, food, first aid supplies, flashlight, radio, and important documents."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "What is the correct response during an earthquake?",
+          "options": [
+            "Run outside immediately",
+            "Stand in a doorway",
+            "Drop, Cover, and Hold On",
+            "Hide under the stairs"
+          ],
+          "correct": 2,
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "cyclones",
+      "title": "Cyclone Preparedness",
+      "titleHi": "चक्रवात की तैयारी",
+      "description": "Learn to prepare for and respond to tropical cyclones and severe storms.",
+      "descriptionHi": "उष्णकटिबंधीय चक्रवात और गंभीर तूफानों की तैयारी और प्रतिक्रिया करना सीखें।",
+      "icon": "Wind",
+      "difficulty": "Intermediate",
+      "duration": "40 minutes",
+      "points": 120,
+      "content": {
+        "sections": [
+          {
+            "title": "Understanding Cyclones",
+            "content": "Cyclones are intense circular storms that originate over warm tropical oceans and are characterized by low atmospheric pressure, high winds, and heavy rain."
+          },
+          {
+            "title": "Pre-Cyclone Preparation",
+            "content": "Monitor weather reports, secure loose objects, stock emergency supplies, and identify safe shelters."
+          },
+          {
+            "title": "During the Cyclone",
+            "content": "Stay indoors, away from windows. If in a shelter, follow instructions. Avoid going out until authorities declare it safe."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "What wind speed defines a cyclone?",
+          "options": [
+            "32 mph (51 km/h)",
+            "39 mph (63 km/h)",
+            "74 mph (119 km/h)",
+            "95 mph (153 km/h)"
+          ],
+          "correct": 2,
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "fires",
+      "title": "Fire Safety",
+      "titleHi": "अग्नि सुरक्षा",
+      "description": "Essential fire prevention, detection, and evacuation procedures for various fire scenarios.",
+      "descriptionHi": "विभिन्न आग के परिदृश्यों के लिए आवश्यक अग्नि रोकथाम, पहचान और निकासी प्रक्रियाएं।",
+      "icon": "Flame",
+      "difficulty": "Beginner",
+      "duration": "35 minutes",
+      "points": 110,
+      "content": {
+        "sections": [
+          {
+            "title": "Fire Prevention",
+            "content": "Keep flammable materials away from heat sources. Install smoke detectors. Maintain electrical equipment properly."
+          },
+          {
+            "title": "Fire Evacuation",
+            "content": "Know your escape routes. Stay low to avoid smoke. Never use elevators during a fire. Meet at designated assembly points."
+          },
+          {
+            "title": "Types of Fire Extinguishers",
+            "content": "Class A: Wood, paper. Class B: Flammable liquids. Class C: Electrical fires. Class K: Cooking oils."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "What should you do first when you discover a fire?",
+          "options": [
+            "Fight the fire",
+            "Alert others and call emergency services",
+            "Gather belongings",
+            "Open windows for ventilation"
+          ],
+          "correct": 1,
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Disaster Preparedness Educational Platform Design System
+All colors MUST be HSL. Government + Educational + Emergency themes.
+*/
+
+@layer base {
+  :root {
+    /* Core Government Blue Theme */
+    --background: 210 50% 98%;
+    --foreground: 215 25% 15%;
+    
+    /* NDMA Official Colors */
+    --primary: 214 84% 25%;      /* Deep government blue */
+    --primary-foreground: 210 40% 98%;
+    --primary-light: 214 84% 35%;
+    --primary-glow: 214 84% 45%;
+    
+    /* Emergency Alert System */
+    --alert: 25 95% 53%;         /* Emergency orange */
+    --alert-foreground: 0 0% 100%;
+    --alert-light: 25 95% 63%;
+    
+    /* Safety & Success */
+    --success: 142 71% 45%;      /* Safety green */
+    --success-foreground: 0 0% 100%;
+    --success-light: 142 71% 55%;
+    
+    /* Achievement System */
+    --achievement: 45 93% 47%;   /* Gold for badges */
+    --achievement-foreground: 45 15% 15%;
+    --achievement-light: 45 93% 57%;
+    
+    /* UI Components */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+    
+    --secondary: 214 20% 94%;
+    --secondary-foreground: 215 25% 15%;
+    
+    --muted: 214 20% 94%;
+    --muted-foreground: 215 15% 45%;
+    
+    --accent: 214 20% 92%;
+    --accent-foreground: 215 25% 15%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 214 25% 88%;
+    --input: 214 25% 88%;
+    --ring: 214 84% 25%;
+    
+    --radius: 0.75rem;
+    
+    /* Gradients for visual impact */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-alert: linear-gradient(135deg, hsl(var(--alert)), hsl(var(--alert-light)));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(var(--success-light)));
+    --gradient-achievement: linear-gradient(135deg, hsl(var(--achievement)), hsl(var(--achievement-light)));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 24px -8px hsl(var(--primary) / 0.12);
+    --shadow-alert: 0 8px 32px -8px hsl(var(--alert) / 0.25);
+    --shadow-success: 0 8px 32px -8px hsl(var(--success) / 0.25);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 215 25% 8%;
+    --foreground: 214 20% 95%;
+    
+    --primary: 214 84% 45%;
+    --primary-foreground: 215 25% 8%;
+    
+    --card: 215 25% 10%;
+    --card-foreground: 214 20% 95%;
+    
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 214 20% 95%;
+    
+    --muted: 215 20% 15%;
+    --muted-foreground: 214 15% 65%;
+    
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-alert {
+    background: var(--gradient-alert);
+  }
+  
+  .gradient-success {
+    background: var(--gradient-success);
+  }
+  
+  .gradient-achievement {
+    background: var(--gradient-achievement);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-alert {
+    box-shadow: var(--shadow-alert);
+  }
+  
+  .shadow-success {
+    box-shadow: var(--shadow-success);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
